@@ -83,5 +83,6 @@ getThreeFastestDetails()
       `);
     }
 
-    threeFastest.append(ul);
+    // threeFastest.append(ul);
+    document.body.append(threeFastest);
   });
